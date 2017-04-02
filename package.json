@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-course",
+  "name": "react-redux-template-app",
   "version": "1.0.0",
-  "description": "React-Redux course for Treehouse",
+  "description": "React-Redux app template",
   "main": "src/index.js",
   "scripts": {
     "prestart": "npm run lint",
@@ -12,10 +12,10 @@
   "keywords": [
     "react",
     "redux",
-    "treehouse"
+    "scheldejonas"
   ],
-  "author": "Beau Palmquist",
-  "license": "MIT",
+  "author": "Schelde Jonas",
+  "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
