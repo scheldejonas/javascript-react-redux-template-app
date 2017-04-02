@@ -27,10 +27,11 @@ This is my standard setup to copy to other new projects, when in need for a new 
 
 ## Includes?
 
-- React
-- Webpack | for dev webserver and hot + inline updating, when changing code
-- Babel | for loading javascript to ES2015 in build
-- Redux | for state management
+- React | for UI elements | [Documentation](https://facebook.github.io/react/docs/react-api.htmll)
+- Materializecss | for styling on UI elements | [Documentation](https://react-materialize.github.io/)
+- Webpack | for dev webserver and hot + inline updating, when changing code | [Documentation](http://webpack.github.io/docs/)
+- Babel | for loading javascript to ES2015 in build | [Documentation](https://babeljs.io/docs/usage/babelrc/)
+- Redux | for state management | [Documentation](http://redux.js.org/)
   - Ready for Redux Dev Tools
 
 
