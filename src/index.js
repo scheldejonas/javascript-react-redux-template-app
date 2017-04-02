@@ -10,9 +10,12 @@ const store = createStore(
   window.devToolsExtension && window.devToolsExtension()
 );
 
+// Components
+import routes from './router';
+
 render(
   <Provider store={store}>
-    <Archive />
+    routes
   </Provider>,
   document.getElementById('root')
 );
