@@ -6,16 +6,14 @@ import React from 'react';
 import { Router, Route, browserHistory, IndexRedirect } from 'react-router';
 
 // Components
-import Archive from './containers/Archive';
+import FrontPage from './templates/FrontPage';
 import NotFound from './components/NotFound';
 
 // Routes
 const routes = (
   <Router history={browserHistory}>
-    {/*<Route component={Page}>*/}
-      <Route path="/" component={Archive} ></Route>
-      <Route path="*" component={NotFound} />
-    {/*</Route>*/}
+    <Route path="/" component={FrontPage} />
+    <Route path="/jj" component={NotFound} />
   </Router>
 );
 

@@ -6,13 +6,13 @@ import { Row, Col } from 'react-materialize';
 
 const NotFound = () => (
   <Row>
-    <Col s={12}>
+    <Col s={12} >
       <br/>
       <br/>
       <br/>
       <br/>
-      <i className="material-icons icn-error">error_outline</i>
-      <h2>Page Not Found</h2>
+      <i className="material-icons icn-error center-block">error_outline</i>
+      <h2 className="center-block">Page Not Found</h2>
     </Col>
   </Row>
 );

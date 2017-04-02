@@ -18,7 +18,7 @@ class Archive extends Component {
     const { dispatch, posts, selectedPostIndex } = this.props;
     const addPost = bindActionCreators(PostActionCreators.addPost, dispatch);
     const removePost = bindActionCreators(PostActionCreators.removePost, dispatch);
-    const updatePostScore = bindActionCreators(PostActionCreators.updatePost, dispatch);
+    const updatePost = bindActionCreators(PostActionCreators.updatePost, dispatch);
     const selectPost = bindActionCreators(PostActionCreators.selectPost, dispatch);
 
     let selectedPost;
@@ -33,7 +33,7 @@ class Archive extends Component {
         description={post.description}
         image_url={post.image_url}
         key={post.name}
-        updatePostScore={updatePostScore}
+        updatePost={updatePost}
         removePost={removePost}
         selectPost={selectPost}
       />
